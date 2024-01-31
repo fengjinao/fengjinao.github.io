@@ -1,3 +1,6 @@
 [submodule "themes/Cxo"]
 	path = themes/Cxo
 	url = https://github.com/Longlongyu/hexo-theme-Cxo
+[submodule "themes/hexo-theme-Cxo"]
+	path = themes/hexo-theme-Cxo
+	url = https://github.com/Longlongyu/hexo-theme-Cxo
