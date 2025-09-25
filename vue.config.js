@@ -1,6 +1,14 @@
-const { defineConfig } = require("@vue/cli-service");
+﻿const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
   transpileDependencies: true,
-  lintOnSave: false, // 关闭ESLint
-  publicPath: './',
+  lintOnSave: false,
+  publicPath: process.env.NODE_ENV === "production" ? "/fengjinao.github.io/" : "/",
+  outputDir: "dist",
+  assetsDir: "static",
+  indexPath: "index.html",
+  productionSourceMap: false,
+  devServer: {
+    port: 8080,
+    open: true
+  }
 });
