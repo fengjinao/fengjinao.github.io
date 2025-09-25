@@ -5,18 +5,18 @@
       root-margin="-100px" text-align="center" @animation-complete="handleAnimationComplete" />
     <CircularText text="VUE * BITS * IS AWESOME * " :spin-duration="20" on-hover="speedUp" class-name="text-blue-500"
       :curve-amount="100" />
-    <!-- <CurvedLoop marquee-text="Be ✦ Creative ✦ With ✦ Vue ✦ Bits ✦" :speed="2" :curve-amount="400" direction="left"
-      :interactive="true" /> -->
+    <CurvedLoop marquee-text="Be ✦ Creative ✦ With ✦ Vue ✦ Bits ✦" :speed="2" :curve-amount="400" direction="left"
+      :interactive="true" />
     <div class="ascii-container">
       <AsciiText text="YuBoWang" :ascii-font-size="8" :text-font-size="200" text-color="#fdf9f3" :plane-base-height="8"
         :enable-waves="true" class-name="w-full h-full" />
     </div>
-    <div class="ascii-container" style="height: 600px;display: flex;justify-content: center;">
+    <!-- <div class="ascii-container" style="height: 600px;display: flex;justify-content: center;">
       <ProfileCard name="Javi A. Torres" title="Software Engineer" handle="javicodes" status="Online"
         contact-text="Contact Me" avatar-url="/assets/person.png" icon-url="/assets/iconpattern.png"
         grain-url="/assets/grain.webp" :show-user-info="true" :show-behind-gradient="false" :enable-tilt="true"
         @contact-click="handleContactClick" />
-    </div>
+    </div> -->
 
   </div>
 </template>
