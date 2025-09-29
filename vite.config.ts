@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/', // 用户页面使用根路径
+  base: '/', // 使用根路径，不包含仓库名
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
